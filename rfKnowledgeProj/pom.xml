@@ -6,6 +6,12 @@
   <artifactId>rfKnowledgeProj</artifactId>
   <version>1.0</version>
   <name>rfKnowledgeProj</name>
+  <distributionManagement>
+    <repository>
+      <id>rhcbap-nexus</id>
+      <url>http://nexus-rhcbap.rhcloud.com/nexus/content/repositories/releases/</url>
+    </repository>
+  </distributionManagement>
   <build>
     <plugins>
       <plugin>
